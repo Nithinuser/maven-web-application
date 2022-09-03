@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://54.205.221.248:9000/</sonar.host.url>
+		<sonar.host.url>http://54.161.217.17:9000/</sonar.host.url>
 		<sonar.login>1f45812cad4d105f65ec60465902fbcc2b3eddba</sonar.login>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://3.95.226.95:7204/nithintechnologies/repository/facebook-releases/</url>
+	      <url>http://54.167.0.212:7204/nithintechnologies/repository/facebook-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.95.226.95:7204/nithintechnologies/repository/facebook-snapshot/</url>
+	      <url>http://54.167.0.212:7204/nithintechnologies/repository/facebook-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
